@@ -1,0 +1,67 @@
+@media all and (max-width: 1024px) {
+  .black_btn {
+    font-size: 11px;
+    padding: 12px 22px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .content .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #main-image {
+    width: 100vw;
+  }
+
+  #menu {
+    display: block;
+  }
+}
+
+@media all and (max-width: 426px) {
+  .count {
+    margin-right: 70%;
+    margin-bottom: 15px;
+  }
+
+  .modal {
+    width: 65%;
+  }
+
+  .modal input {
+    padding: 15px 20px;
+  }
+
+  .footer_list:last-child {
+    margin-top: 80px;
+  }
+}
+
+@media all and (max-width: 376px) {
+  .content {
+    margin-top: 20px;
+  }
+}
+
+@media all and (max-width: 376px) {
+  .sub-image {
+    width: 50px;
+  }
+
+  .footer_list:last-child {
+    width: 90%;
+  }
+
+  .news {
+    width: 65%;
+  }
+
+  .modal strong {
+    font-size: 16px;
+  }
+
+  .modal input {
+    padding: 12px 18px;
+  }
+}

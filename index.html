@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/adaptive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>key client</title>
+  </head>
+  <body>
+    <!-- ?navbar -->
+    <div class="navbar">
+      <div class="container">
+        <img width="" src="./assets/LOGO.svg" alt="key_client_logo" />
+        <div class="nav-right">
+          <img src="./assets/person.svg" alt="" />
+          <img src="./assets/favorite.svg" alt="" />
+          <img src="./assets/Group.svg" alt="" />
+          <img id="menu" src="./assets/menu.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ?burger-menu -->
+    <div class="burger-menu">
+      <img class="burger_close" src="./assets/close.svg" alt="" />
+      <ul>
+        <li>ПОСТЕЛЬНОЕ БЕЛЬЕ</li>
+        <li>ОДЕЖДА ДЛЯ ДОМА</li>
+        <li>ОДЕЖДА ДЛЯ УЛИЦЫ</li>
+        <li>ВЫХОД</li>
+      </ul>
+    </div>
+    <!-- ?content -->
+    <div class="content">
+      <div class="container">
+        <div class="carousel">
+          <ul class="carousel_items">
+            <li><img class="sub-image" src="./assets/car1.png" alt="" /></li>
+            <li><img class="sub-image" src="./assets/car2.png" alt="" /></li>
+            <li><img class="sub-image" src="./assets/car3.png" alt="" /></li>
+            <li><img class="sub-image" src="./assets/car4.png" alt="" /></li>
+            <li><img class="sub-image" src="./assets/car5.png" alt="" /></li>
+          </ul>
+          <img
+            id="main-image"
+            src="./assets/left_content.png"
+            alt="left_content"
+          />
+        </div>
+        <div class="content_right">
+          <div class="content_right_up">
+            <div class="content_title">
+              <h2>Пижама для девочек</h2>
+              <p class="articul">Арт. 02765/46</p>
+              <div class="reviews">
+                <p>Отзывы</p>
+                <img class="rating" src="./assets/row.svg" alt="" />
+                <p>14 отзывов</p>
+                <img src="./assets/arrow_right.svg" alt="" />
+              </div>
+            </div>
+            <div class="content_price">
+              <div class="content__price_up">
+                <h2>800 ₽</h2>
+                <p>1 500 ₽</p>
+                <img src="./assets/arrow_right.svg" alt="" />
+              </div>
+              <div class="content__price_down">
+                <div class="discount">скидка -47%</div>
+                <div class="discount">акция -20%</div>
+              </div>
+            </div>
+            <div class="content_sales">
+              <div class="select">
+                <img src="./assets/arrow_down.svg" alt="" />
+                <select name="size" id="">
+                  <option value="">Выбрать размер</option>
+                </select>
+              </div>
+              <p class="size">Определить размер</p>
+              <div class="cart_block">
+                <div class="count">
+                  <button id="minus" class="count_item">-</button>
+                  <button id="counter" class="count_item">1</button>
+                  <button id="plus" class="count_item">+</button>
+                </div>
+                <button class="black_btn">Добавить в корзину</button>
+                <button class="favorite">
+                  <img src="./assets/Frame.svg" alt="" />
+                </button>
+              </div>
+              <p class="buy">Купить в 1 клик</p>
+            </div>
+          </div>
+          <hr />
+          <div class="content_right_down">
+            <ul class="info">
+              <li class="info_item">
+                <img src="./assets/Clothes.svg" alt="" />
+                <p>Описание товара</p>
+              </li>
+              <li class="info_item">
+                <img src="./assets/clock.svg" alt="" />
+                <p>Доставка и возврат</p>
+              </li>
+              <li class="info_item">
+                <img src="./assets/pay.svg" alt="" />
+                <p>Способ оплаты</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ?modal -->
+    <div class="modal">
+      <img id="closeIcon" src="./assets/close.svg" alt="" />
+      <div class="modal_up">
+        <strong>Купить в 1 клик</strong>
+        <input placeholder="+7 (---) --- -- --" type="text" />
+        <input placeholder="Ваше имя" type="text" />
+      </div>
+      <hr />
+      <div class="modal_down">
+        <p>
+          Нажимая кнопку “Отправить”, я даю согласие на обработку моих
+          персональных данных в соответствии с <br />
+          <span> Условиями конфиденциальности</span>
+        </p>
+        <button class="black_btn send_btn">Отправить</button>
+      </div>
+    </div>
+    <!-- ?footer -->
+    <div class="container">
+      <div class="footer">
+        <ul class="footer_list">
+          <li>ПОКУПАТЕЛЯМ</li>
+          <li>Каталог</li>
+          <li>Акции</li>
+          <li>Бренды</li>
+        </ul>
+        <ul class="footer_list">
+          <li>О НАС</li>
+          <li>О компании</li>
+          <li>Новости</li>
+          <li>Команда</li>
+        </ul>
+        <ul class="footer_list">
+          <li class="news">УЗНАЙТЕ ПЕРВЫМИ О НОВИНКАХ И АКЦИЯХ</li>
+          <li class="mailInp">
+            <img id="closeInp" src="./assets/close.svg" alt="close icon" />
+            <input
+              id="mailInput"
+              placeholder="Адрес электронной почты"
+              type="email"
+            />
+          </li>
+          <li><button>ПОДПИСАТЬСЯ</button></li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
