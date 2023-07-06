@@ -6,11 +6,10 @@
 }
 
 .navbar {
-  /* height: 100px; */
   box-shadow: 0px 7px 6px 0px rgb(0 0 0 / 50%);
   padding: 20px;
   position: sticky;
-  background: white;
+  background: var(--main-color);
   top: 0;
   left: 0;
   width: 100%;
@@ -27,7 +26,7 @@
   position: fixed;
   z-index: 20;
   top: 0;
-  background: white;
+  background: var(--main-color);
   width: 100%;
 }
 
@@ -72,7 +71,7 @@
 }
 
 .active {
-  border: 2px solid black;
+  border: 2px solid var(--black-color);
 }
 
 .carousel_items {
@@ -89,7 +88,7 @@
   width: 600px;
 }
 .carousel_items li:hover {
-  border: 2px solid black;
+  border: 2px solid var(--black-color);
 }
 
 .content .container {
@@ -113,7 +112,7 @@
 .articul {
   font-size: 12px;
   margin-top: 6px;
-  color: #828282;
+  color: var(--secondary-text-color);
 }
 
 .reviews {
@@ -144,7 +143,7 @@
 
 .content__price_up p {
   text-decoration: line-through;
-  color: #828282;
+  color: var(--secondary-text-color);
   font-size: 14px;
 }
 
@@ -155,7 +154,7 @@
 }
 
 .discount {
-  border: 1px solid black;
+  border: 1px solid var(--black-color);
   padding: 4px 8px;
 }
 
@@ -204,18 +203,18 @@
 
 .count_item {
   border: none;
-  border-right: 1px solid #c4c4c4;
+  border-right: 1px solid var(--secondary-bg-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f2f2f2;
+  background: var(--secondary-light-color);
   height: 44px;
   width: 44px;
   cursor: pointer;
 }
 
 .count_item:hover {
-  background-color: #c4c4c4;
+  background-color: var(--secondary-bg-color);
 }
 
 .count_item:last-child {
@@ -226,7 +225,7 @@
   padding: 12px 28px;
   border: none;
   color: white;
-  background: #333333;
+  background: var(--dark-color);
   cursor: pointer;
 }
 
@@ -234,7 +233,7 @@
   border: none;
   height: 44px;
   width: 44px;
-  background: #333333;
+  background: var(--dark-color);
   margin-left: 4px;
   cursor: pointer;
 }
@@ -263,7 +262,6 @@
 }
 
 .modal {
-  /* visibility: hidden; */
   z-index: -10;
   opacity: 0;
   transition: all 0.3s;
@@ -272,10 +270,10 @@
   right: 0;
   left: 0;
   margin: auto;
-  background: white;
+  background: var(--main-color);
   height: fit-content;
   position: fixed;
-  border: 1px solid #e6e9f0;
+  border: 1px solid var(--modal-border-color);
   width: 25%;
 }
 
@@ -321,9 +319,8 @@
   padding: 22px 20px;
   outline: none;
   font-size: 16px;
-  background: #fdfcfc;
-  border: 1px solid #868686;
-  /* height: 60px; */
+  background: var(--input-bg);
+  border: 1px solid var(--input-borders);
   margin-bottom: 15px;
 }
 
@@ -366,7 +363,7 @@
 
 .footer_list input {
   border: none;
-  border-bottom: 2px solid #c4c4c4;
+  border-bottom: 2px solid var(--secondary-bg-color);
   width: 100%;
   padding: 10px 23px;
   outline: none;
@@ -375,6 +372,6 @@
 .footer_list button {
   margin-top: 25px;
   float: right;
-  background: white;
+  background: var(--main-color);
   padding: 8px 28px;
 }
